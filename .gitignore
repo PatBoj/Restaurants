@@ -11,3 +11,6 @@ wheels/
 
 # Open Street Map cache
 **/*cache*/
+
+# Temporary data
+temp_data/

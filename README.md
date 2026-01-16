@@ -2,12 +2,13 @@
 
 ## Week 03:
 
-- **15.01.2025** create project using `uv`, add git connection, automatically clean notebook outputs[^1] and start working on getting data on cities in Poland
+- **15.01.2026** create project using `uv`, add git connection, [automatically clean notebook outputs](#automatically-clean-notebook-output) and start working on getting data on cities in Poland
+- **16.01.2026** explore cities data, plan to merge `node` with `way` and `relation`
 
 
 # Footnotes:
 
-[^1]: How to setup: 
+## Automatically Clean Notebook Output
 
 ```
 uv add pre-commit nbstripout
