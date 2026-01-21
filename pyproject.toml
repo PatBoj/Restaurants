@@ -17,6 +17,10 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "mclights",
     "nbstripout>=0.8.2",
     "pre-commit>=4.5.1",
 ]
+
+[tool.uv.sources]
+mclights = { workspace = true }

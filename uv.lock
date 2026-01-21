@@ -631,6 +631,7 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "mclights" },
     { name = "nbstripout" },
     { name = "pre-commit" },
 ]
@@ -649,6 +650,7 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
+    { name = "mclights", virtual = "." },
     { name = "nbstripout", specifier = ">=0.8.2" },
     { name = "pre-commit", specifier = ">=4.5.1" },
 ]
