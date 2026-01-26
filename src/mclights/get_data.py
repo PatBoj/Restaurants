@@ -4,7 +4,6 @@ import osmnx as ox
 from loguru import logger
 import os
 
-
 ox.settings.use_cache = True
 project_dir = Path(os.getcwd()).parent.parent
 ox.settings.cache_folder = project_dir / "cache"

@@ -15,6 +15,10 @@
 - **23.01.2026** add missing cities to mcdonald data, start working on clustering
 - **24.01.2026** clusted data to remove duplicates, decided that if there is two restaurants on the motorway (in both way) tret them as one, download motorways data
 
+## Week 04:
+
+- **26.01.2026** use `tenacity` package to retry connection when getting the city name, write function to get traffic lights location
+
 
 # Footnotes:
 
